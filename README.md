@@ -1,6 +1,6 @@
-# <%= appName %>
+# my-ext-react-app
 
-<%= description %>
+This app present a simple CRUD tree browser created with ExtReact js library.
 
 ## Setup
 
