@@ -134,10 +134,10 @@ export default class myTreeNode extends Component {
                             <div style={{margin: '10px'}}>Add:</div>
                             <SegmentedButton
                                 onChange={(button, value) => {
-                                    this.setState({button1: value})
+                                    this.setState({button: value})
                                 }}
                                 onReady={({cmp, cmpObj}) => {
-                                    cmp.setValue(this.state.button1)
+                                    cmp.setValue(this.state.button)
                                 }}
                             >
                                 <Button
